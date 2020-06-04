@@ -16,10 +16,10 @@ pipeline {
             }
         stage('Test'){
             steps{
-            echo "name2 ${name3}"
+            echo "name2 ${name1}"
             }
         }
             
-        
     }
-}
+        
+    
