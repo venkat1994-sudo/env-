@@ -1,18 +1,20 @@
 pipeline {
     agent any
     environment{
-        name1 = "venkat"
-        name2 = "ashita"
+        name1 = "jeff"
+        name2 = "john"
     }
     
     stages {
         stage('Build'){
             environment {
-                name3 = "venkatesh"
+                name2 = "mike"
+                name3 = "jamie"
             }
             steps {
                 echo "name1 ${name1}"
-                sh "printenv"
+                echo "name2 ${name2}"
+              
             }
             }
         stage('Test'){
