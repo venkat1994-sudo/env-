@@ -12,6 +12,7 @@ pipeline {
             }
             steps {
                 echo "name1 ${name1}"
+                sh "printenv"
             }
             }
         stage('Test'){
