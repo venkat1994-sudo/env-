@@ -14,6 +14,8 @@ pipeline {
             steps {
                 echo "name1 ${name1}"
                 echo "name2 ${name2}"
+                ehco "name3 ${name3}"
+                sh "printenv"
               
             }
             }
